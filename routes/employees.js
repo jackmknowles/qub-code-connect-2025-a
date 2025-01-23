@@ -4,7 +4,13 @@ var router = express.Router();
 const EmployeeService = require('../services/employeeService');
 const employeeService = new EmployeeService();
 
-// Create a new user form
+// Read all users
+router.get('/', (req, res) => {
+    const employees = employeeService.getAllEmployees();
+    res.render('employeeList', { employees: employees })
+  });
+
+  // Create a new user form
 router.get('/add', (req, res) => {
   res.render('addEmployee')
 });

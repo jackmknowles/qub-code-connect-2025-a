@@ -29,6 +29,11 @@ class EmployeeService {
     }
   }
 
+      // Get all users
+      getAllEmployees() {
+        return this.readEmployees();
+    }
+
   // Create a new user
   createEmployee(newEmployee) {
     const employees = this.readEmployees();
