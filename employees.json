@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Ethein",
+        "address": "Queen's University",
+        "salary": 26000,
+        "role": "Software Engineer",
+        "employee_number": 1
+    }
+]
