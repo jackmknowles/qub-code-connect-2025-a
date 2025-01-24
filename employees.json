@@ -1,10 +1,50 @@
 [
-    {
-        "id": 1,
-        "name": "Ethein",
-        "address": "Queen's University",
-        "salary": 26000,
-        "role": "Software Engineer",
-        "employee_number": 1
-    }
+  {
+    "id": 1,
+    "name": "Ben",
+    "address": "23",
+    "salary": "12",
+    "role": "pancake maker",
+    "employeeNumber": 1
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "address": "25",
+    "salary": "56",
+    "role": "toast maker",
+    "employeeNumber": 2
+  },
+  {
+    "name": "Josh",
+    "address": "56",
+    "salary": "9878678",
+    "role": "Assisstant",
+    "employeeNumber": "78g",
+    "id": 3
+  },
+  {
+    "name": "Bobby",
+    "address": "56",
+    "salary": 987867878,
+    "role": "Assisstant",
+    "employeeNumber": "78gh",
+    "id": 4
+  },
+  {
+    "name": "Jack",
+    "address": "785",
+    "salary": 67890,
+    "role": "CEO",
+    "employeeNumber": "45hy",
+    "id": 5
+  },
+  {
+    "name": "Sean",
+    "address": "234",
+    "salary": 4567800,
+    "role": "testing",
+    "employeeNumber": "45gh",
+    "id": 6
+  }
 ]
