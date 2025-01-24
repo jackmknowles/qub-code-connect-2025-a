@@ -30,61 +30,6 @@
     "role": "Assisstant",
     "employeeNumber": "78gh",
     "id": 4
-  },
-  {
-    "name": "jus",
-    "address": "a",
-    "salary": 1234,
-    "role": "fish",
-    "employeeNumber": "78",
-    "id": 5
-  },
-  {
-    "name": "jus",
-    "address": "a",
-    "salary": 1234,
-    "role": "fish",
-    "employeeNumber": "79",
-    "id": 6
-  },
-  {
-    "name": "validate",
-    "address": "a",
-    "salary": 12345,
-    "role": "shrimp",
-    "employeeNumber": "megan",
-    "id": 7
-  },
-  {
-    "name": "a",
-    "address": "a",
-    "salary": 12345,
-    "role": "testing",
-    "employeeNumber": "1234",
-    "id": 8
-  },
-  {
-    "name": "Rosemary",
-    "address": "90",
-    "salary": 67890,
-    "role": "team leader",
-    "employeeNumber": "756hg",
-    "id": 9
-  },
-  {
-    "name": "",
-    "address": "90",
-    "salary": 67890,
-    "role": "team leader",
-    "employeeNumber": "756hg",
-    "id": 10
-  },
-  {
-    "name": "",
-    "address": "90",
-    "salary": 67890,
-    "role": "team leader",
-    "employeeNumber": "756hg",
-    "id": 11
   }
+
 ]

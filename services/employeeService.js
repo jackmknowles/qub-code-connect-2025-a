@@ -34,32 +34,6 @@ class EmployeeService {
         return this.readEmployees();
     }
 
-    // validateEmployee(employee) {
-    //     var errors = [];
-    //     if(!employee.name){
-    //         errors.push('Name is a required field');
-    //     }
-
-    //     if(!employee.salary){
-    //         errors.push('Name is a required field');
-    //     }
-
-    //     if(!employee.address){
-    //         errors.push('Name is a required field');
-    //     }
-
-    //     if(!employee.role){
-    //         errors.push('Name is a required field');
-    //     }
-
-    //     if(!employee.employeeNumber){
-    //         errors.push('Name is a required field');
-    //     }
-
-    //     return errors;
-
-    //}
-
   // Create a new user
   createEmployee(newEmployee) {
 
