@@ -30,6 +30,21 @@
     "role": "Assisstant",
     "employeeNumber": "78gh",
     "id": 4
+  },
+  {
+    "name": "Jack",
+    "address": "785",
+    "salary": 67890,
+    "role": "CEO",
+    "employeeNumber": "45hy",
+    "id": 5
+  },
+  {
+    "name": "Sean",
+    "address": "234",
+    "salary": 4567800,
+    "role": "testing",
+    "employeeNumber": "45gh",
+    "id": 6
   }
-
 ]

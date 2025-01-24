@@ -20,7 +20,7 @@ router.post('/add', (req, res) => {
   const newEmployee = req.body;
   const createdEmployees = employeeService.createEmployee(newEmployee);
   if(createdEmployees) {
-  res.redirect('/employees/')
+  res.redirect('/employees')
   }
 });
 
