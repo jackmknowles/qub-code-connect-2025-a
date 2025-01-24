@@ -34,36 +34,34 @@ class EmployeeService {
         return this.readEmployees();
     }
 
-    validateEmployee(employee) {
-        var errors = [];
-        if(!employee.name){
-            errors.push('Name is a required field');
-        }
+    // validateEmployee(employee) {
+    //     var errors = [];
+    //     if(!employee.name){
+    //         errors.push('Name is a required field');
+    //     }
 
-        if(!employee.salary){
-            errors.push('Name is a required field');
-        }
+    //     if(!employee.salary){
+    //         errors.push('Name is a required field');
+    //     }
 
-        if(!employee.address){
-            errors.push('Name is a required field');
-        }
+    //     if(!employee.address){
+    //         errors.push('Name is a required field');
+    //     }
 
-        if(!employee.role){
-            errors.push('Name is a required field');
-        }
+    //     if(!employee.role){
+    //         errors.push('Name is a required field');
+    //     }
 
-        if(!employee.employeeNumber){
-            errors.push('Name is a required field');
-        }
+    //     if(!employee.employeeNumber){
+    //         errors.push('Name is a required field');
+    //     }
 
-        return errors;
+    //     return errors;
 
-    }
+    //}
 
   // Create a new user
   createEmployee(newEmployee) {
-    var errors = this.validateEmployee(newEmployee);
-    if(errors.length === 0){
 
     const employees = this.readEmployees();
     const newId = employees.length > 0
@@ -76,10 +74,8 @@ class EmployeeService {
     newEmployee.id = newId;
     employees.push(newEmployee);
     this.writeEmployees(employees);
-    return true;
-    } else {
-        return false;
-    }
+    return newEmployee;
+   
   }
 
 }
