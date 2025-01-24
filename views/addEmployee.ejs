@@ -9,7 +9,9 @@
 </head>
 <body>
     <h1>Add New Employee</h1>
-
+    <div class="error-title">
+        <h1 id="error-title"></h1>
+    </div>
     <form action="/employees/add" method="post">
         <label for="name">Name:</label><br>
         <input type="name" id="name" name="name"><br>
@@ -18,7 +20,7 @@
         <input type="address" id="address" name="address"><br>
 
         <label for="salary">Salary:</label><br>
-        <input type="salary" id="salary" name="salary"><br>
+        <input type="number" id="salary" name="salary"><br>
 
         <label for="role">Role:</label><br>
         <input type="role" id="role" name="role"><br>

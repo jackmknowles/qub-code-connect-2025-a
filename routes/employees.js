@@ -19,7 +19,9 @@ router.get('/add', (req, res) => {
 router.post('/add', (req, res) => {
   const newEmployee = req.body;
   const createdEmployees = employeeService.createEmployee(newEmployee);
-  res.redirect('/employees/'+createdEmployees.id)
+  if(createdEmployees) {
+  res.redirect('/employees/')
+  }
 });
 
 module.exports = router;
